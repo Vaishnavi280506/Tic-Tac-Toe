@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tic Tac Toe</title>
+    <link rel="stylesheet" href="Tic Tac Toe.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Tic Tac Toe</h1>
+        
+        <div class="status" id="status">Player X's turn</div>
+        
+        <div class="board" id="board">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="restart-btn">Restart Game</button>
+            <button id="new-game-btn">New Game</button>
+        </div>
+        
+        <div class="score-board">
+            <div class="score">
+                <h3>Player X</h3>
+                <div class="score-value x-score" id="x-score">0</div>
+            </div>
+            <div class="score">
+                <h3>Draws</h3>
+                <div class="score-value draws" id="draws">0</div>
+            </div>
+            <div class="score">
+                <h3>Player O</h3>
+                <div class="score-value o-score" id="o-score">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="Tic Tac Toe.js"></script>
+</body>
+</html>
