@@ -21,6 +21,9 @@ A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript — no framework
 2. Open `Tic Tac Toe.html` in your browser
 3. That's it — no installs needed
 
+## Live demo
+[View it here](https://vaishnavi280506.github.io/Tic-Tac-Toe/)
+
 ## Built by
 
 Vaishnavi Vingale · [LinkedIn](https://www.linkedin.com/in/vaishnavi-vingale-08a517345) · [GitHub](https://github.com/Vaishnavi280506)
