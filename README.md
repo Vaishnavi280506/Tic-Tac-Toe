@@ -2,6 +2,10 @@
 
 A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript — no frameworks, just clean vanilla code.
 
+## Preview
+
+![Tic Tac Toe Preview](preview.png)
+
 ## What I focused on
 
 - DOM manipulation to handle game state and player turns
